@@ -1,3 +1,4 @@
 **/*.pt
+mysite/wiki/best.pt
 .DS_Store
 __pycache__/
