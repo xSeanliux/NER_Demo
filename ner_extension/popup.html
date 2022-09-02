@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wiki Summary</title>
+        <script src = "lib/jquery.js"></script>
+        <link href="lib/bootstrap.min.css" rel="stylesheet">
+        <link href="lib/popup.css" rel="stylesheet">
+        <script src="lib/bootstrap.bundle.min.js"></script>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <div id = "extension_body", class = "mx-4 my-2">
+            <h1>NER Demo By Sean Liu</h1>
+            
+            <div id = "results" class = "mx-1 my-1">
+                <div id = "tagged_text"> </div>
+                
+                <div id = "legend" class = "labeled" style="display: none">
+                    <hr>
+                    Legend:
+                    <span class = "geo">geo</span>
+                    <span class = "art">art</span>
+                    <span class = "eve">eve</span>
+                    <span class = "per">per</span>
+                    <span class = "gpe">gpe</span>
+                    <span class = "nat">nat</span>
+                    <span class = "org">org</span>
+                    <span class = "tim">tim</span>
+                </div>
+            </div>
+            
+            
+            <div id = "input_form" class = "mx-1 my-1">
+                <h3>Enter Text Below</h3>
+                <textarea id="keyword" cols="50" rows="10"></textarea>
+                <input id="keywordsubmit" class="btn btn-success" type="submit" value="Analyze">
+                <input id="reset_button" class="btn btn-danger" type="submit" value="Reset">
+            </div>
+        </div>
+    </body>
+</html>

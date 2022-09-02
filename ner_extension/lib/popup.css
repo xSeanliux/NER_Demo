@@ -1,0 +1,47 @@
+body {
+    background-color: #fdf6e3;
+}
+
+#keyword {
+    background-color: #eee8d5;
+}
+#extension_body {
+    
+    color: #002b36;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.labeled {
+    font-weight: bold;
+};
+
+.art {
+    color: #b58900
+}
+
+.eve {
+    color: #cb4b16
+}
+
+.geo {
+    color: #dc322f
+}
+
+.per {
+    color: #d33682
+}
+
+.gpe {
+    color: #859900
+}
+
+.nat {
+    color: #6c71c4
+}
+.org {
+    color: #268bd2
+}
+
+.tim {
+    color: #2aa198
+}
