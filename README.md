@@ -3,9 +3,13 @@
 This code was written in a week so is pretty messy. Sorry! 
 
 ## How to run the Chrome extension: 
+0. Please download the repository by navigating to a directory of your choice and then running
+```bash
+git clone https://github.com/xSeanliux/NER_Demo.git
+```
 1. please install the required packages: 
 ```bash
-$ pip install -r ./requirements.txt
+pip install -r ./requirements.txt
 ```
 2. Then, go to chrome://extensions/ and turn on "Developer Mode".
 3. Click on "Load unpacked" and select the `ner_extension` folder to import. 
